@@ -1,8 +1,8 @@
 import org.junit.runner.RunWith;
+import fitnesse.junit.FitNesseRunner;
 
 @RunWith(FitNesseRunner.class)
-@FitNesseRunner.Suite("FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestScriptTable")
+@FitNesseRunner.Suite("*.txt")
 @FitNesseRunner.FitnesseDir(".")
-@FitNesseRunner.OutputDir("./target/fitnesse-results")
 public class FitNesseRunnerTest {
 }
